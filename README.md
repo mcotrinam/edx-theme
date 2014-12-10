@@ -17,6 +17,7 @@ To customize your theme:
 - Upload your own image assets.
 - Edit the .scss file in static/sass/ and rename the file with your theme's name.
 - Edit the server-vars.yml file in edx-platform and set 'USE_CUSTOM_THEME' to true, and 'THEME_NAME' to your theme's name.
+- Restart server: sudo /edx/bin/update edx-platform master
 
 
 License
